@@ -21,6 +21,18 @@ La creation des entites
 
 
 <img width="926" height="481" alt="image" src="https://github.com/user-attachments/assets/4a7e47e3-5b29-4981-a3bd-f3334502c4d4" />
+Curl
+<img width="864" height="135" alt="image" src="https://github.com/user-attachments/assets/e0213df3-c13f-4bdf-98b7-7ee1bfca82ed" />
+Cree prod
+<img width="855" height="106" alt="image" src="https://github.com/user-attachments/assets/f14bfd5c-6727-4fa0-9560-52db422cf710" />
+pagination
+<img width="833" height="245" alt="image" src="https://github.com/user-attachments/assets/0aad0dec-02ad-4c72-998b-bf2d7905fd01" />
+Recuperer un produit / MAT prod
+<img width="850" height="191" alt="image" src="https://github.com/user-attachments/assets/24b99c98-7364-4db8-a744-060b4cf546a4" />
+Cree ub commande
+<img width="848" height="104" alt="image" src="https://github.com/user-attachments/assets/a2e804d8-f4b8-4977-a286-08001882bd01" />
+
+
 
 
 
