@@ -31,6 +31,8 @@ Recuperer un produit / MAT prod
 <img width="850" height="191" alt="image" src="https://github.com/user-attachments/assets/24b99c98-7364-4db8-a744-060b4cf546a4" />
 Cree ub commande
 <img width="848" height="104" alt="image" src="https://github.com/user-attachments/assets/a2e804d8-f4b8-4977-a286-08001882bd01" />
+![Uploading image.png…]()
+
 
 
 
