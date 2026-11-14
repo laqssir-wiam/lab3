@@ -13,5 +13,15 @@ PowerShell coupe l'exécution à cause du caractère : dans archetype:generate =
 <img width="905" height="257" alt="image" src="https://github.com/user-attachments/assets/7e8f803e-d17b-45cf-b263-9f1f21b2ca7b" />
 
 
+<img width="607" height="311" alt="image" src="https://github.com/user-attachments/assets/a9346b6c-c0e8-4dde-a4a7-d935ff080153" />
+<img width="730" height="369" alt="image" src="https://github.com/user-attachments/assets/022aceef-c94b-4b02-a354-3eaa7a7a0576" />
+La creation des entites
+<img width="579" height="299" alt="image" src="https://github.com/user-attachments/assets/85d6ad5c-eda8-4cff-8d34-c7017115640e" />
+<img width="378" height="288" alt="image" src="https://github.com/user-attachments/assets/e360b16a-fb3d-4618-a4fa-ac74fb99cf6a" />
+
+
+<img width="926" height="481" alt="image" src="https://github.com/user-attachments/assets/4a7e47e3-5b29-4981-a3bd-f3334502c4d4" />
+
+
 
 
