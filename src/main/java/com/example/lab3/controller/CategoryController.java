@@ -7,6 +7,7 @@ import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -15,28 +16,33 @@ import java.util.List;
 @RequestMapping("/api/categories")
 @RequiredArgsConstructor
 public class CategoryController {
+
     private final CategoryService categoryService;
 
-    // Créer une catégorie
+    // Créer une catégorie (Réservé aux ADMIN)
     @PostMapping
+    @PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<CategoryDto> create(@Valid @RequestBody CategoryDto dto) {
         return new ResponseEntity<>(categoryService.create(dto), HttpStatus.CREATED);
     }
 
-    // Récupérer une catégorie par son ID
+    // Récupérer une catégorie par son ID (Accessible aux USER et ADMIN)
     @GetMapping("/{id}")
+    @PreAuthorize("hasAnyRole('USER','ADMIN')")
     public ResponseEntity<CategoryDto> get(@PathVariable Long id) {
         return ResponseEntity.ok(categoryService.getById(id));
     }
 
-    // Lister toutes les catégories
+    // Lister toutes les catégories (Accessible aux USER et ADMIN)
     @GetMapping
+    @PreAuthorize("hasAnyRole('USER','ADMIN')")
     public ResponseEntity<List<CategoryDto>> list() {
         return ResponseEntity.ok(categoryService.findAll());
     }
 
-    // Endpoint pour récupérer la liste des produits d'une catégorie spécifique
+    // Endpoint pour récupérer la liste des produits d'une catégorie spécifique (Accessible aux USER et ADMIN)
     @GetMapping("/{id}/products")
+    @PreAuthorize("hasAnyRole('USER','ADMIN')")
     public ResponseEntity<List<ProductDto>> getProductsByCategory(@PathVariable Long id) {
         return ResponseEntity.ok(categoryService.getProductsByCategory(id));
     }

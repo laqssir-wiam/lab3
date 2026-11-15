@@ -62,7 +62,15 @@ public class OrderService {
                 .collect(Collectors.toList());
     }
 
-    // onversion Entity -> DTO
+    // Supprimer une commande par son ID
+    @Transactional
+    public void delete(Long id) {
+        Order order = orderRepo.findById(id)
+                .orElseThrow(() -> new EntityNotFoundException("Order not found with id: " + id));
+        orderRepo.delete(order);
+    }
+
+    // Conversion Entity -> DTO
     private OrderDto mapToDto(Order order) {
         List<OrderItemDto> itemDtos = order.getItems().stream()
                 .map(item -> new OrderItemDto(
