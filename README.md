@@ -1,3 +1,10 @@
+# lab4
+<img width="858" height="65" alt="image" src="https://github.com/user-attachments/assets/c2b2cd19-62c2-4f89-9f89-35742abd58c3" />
+
+<img width="871" height="137" alt="image" src="https://github.com/user-attachments/assets/91f314f4-0284-4e21-96af-a95b58e40008" />
+
+<img width="956" height="242" alt="image" src="https://github.com/user-attachments/assets/874ee3c3-d7ee-4bfb-90eb-918652b26fc4" />
+
 # lab3
 <img width="902" height="169" alt="image" src="https://github.com/user-attachments/assets/aced0681-de65-45a1-8756-9383ae614f96" />
 
